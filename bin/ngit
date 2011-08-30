@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var ngit = require('../lib/ngit'),
+    fs = require('fs');
+
+ngit.readPath(process.cwd(), function (err) {
+  if (err) {
+    console.error(err.message);
+    process.exit(1);
+  }
+  console.log('done.');
+  
+});
