@@ -1,0 +1,22 @@
+{
+    "name" : "ngit",
+    "version" : "0.0.0",
+    "author": "AvianFlu <charlie@charlieistheman.com>",
+    "description" : "Like git... but not at all.",
+    "bin": {
+      "ngit": "./bin/ngit"
+    },
+    "main": "./lib/ngit.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/AvianFlu/ngit.git"
+    },
+    "keywords" : [
+        "cli",
+        "git"
+    ],
+    "license" : "MIT",
+    "engine" : {
+        "node" : ">=0.4"
+    }
+}
